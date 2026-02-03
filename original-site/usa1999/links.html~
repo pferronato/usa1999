@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>USA1999 Links</TITLE>
+<link href="small.css" rel="stylesheet">
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</HEAD>
+
+<BODY onLoad="MM_preloadImages('orgball.gif')" bgcolor="#CCCCCC">
+<a href="../pieffe/" target="_blank"><p><SPAN CLASS="title">HOME</SPAN> <br></a>
+<p><SPAN CLASS="title">USA 1999</SPAN> <br>
+  <a href="thestory.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('orgballup.gif','','orgball.gif',1)" target="main"><img name="Image131234" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  <span class="small"><b><font size="3">The Story</font></b><br>
+  </span></a> <a href="picsshow.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image131235','','orgball.gif',1)" target="_blank"><span class="small"><img name="Image131235" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Pictures<br>
+  </span></A> <span class="small"><a href="sitesdes.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image131236','','orgball.gif',1)" target="main"><img name="Image131236" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Point of interest<br>
+  </A> <a href="thanks.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image131237','','orgball.gif',1)" target="main"><img name="Image131237" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Ackowledgements<br>
+  </A> <a href="consigli.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image131238','','orgball.gif',1)" target="main"><img name="Image131238" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Suggestions </A><br>
+  <a href="route_and_pics.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image131239','','orgball.gif',1)" target="main"><img name="Image131239" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Route &amp; Pics </A><br>
+  <a href="stats.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1312310','','orgball.gif',1)" target="main"><img name="Image1312310" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Statistics </A><br>
+  <a href="booksandrefs.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1312311','','orgball.gif',1)" target="main"><img name="Image1312311" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Books and References </A><br>
+  <a href="i94w.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1312312','','orgball.gif',1)" target="main"><img name="Image1312312" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Modulo I94W </A></span></p>
+
+<p><SPAN CLASS="title">Useful Links</SPAN> <br>
+  <a href="http://www.mgnoc.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1312341','','orgball.gif',1)" target="_blank"><span class="small"><img name="Image1312341" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Moto Guzzi National Owner Club<br>
+  </span></A><span class="small"><a href="http://mtstowing.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1312342','','orgball.gif',1)" target="_blank"><img name="Image1312342" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Moto Towing Service</A><br>
+  <a href="http://www.ama-cycle.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1312343','','orgball.gif',1)" target="_blank"><img name="Image1312343" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  American Motorcycle Association</a><br>
+  <a href="http://www.mgnoc.com/%2799_falcone_tour.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1312344','','orgball.gif',1)" target="_blank"><img name="Image1312344" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  I 10 Falcone che abbiamo incontrato </A><a href="..\moto\" target="_blank"><br>
+  </A> <a href="http://web.tiscalinet.it/pieffe/moto" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1312345','','orgball.gif',1)" target="_blank"><img name="Image1312345" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Come abbiamo restaurato le moto </A></span></p>
+
+<p><SPAN CLASS="title">Route 66</SPAN> <br>
+  <a href="http://www.route66.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1311','','orgball.gif',1)" target="_blank"><span class="small"><img name="Image1311" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  www.route66.com</span></A><span class="small"><br>
+  <a href="http://www.sinergic.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image132','','orgball.gif',1)" target="_blank"><img name="Image132" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  www.sinergic.com</A><br>
+  <a href="http://route66.netvision.be" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','orgball.gif',1)" target="_blank"><img name="Image13" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Route 66 Netvision</A> </span></p>
+
+<p><SPAN CLASS="title">Chain Motels<br>
+  </SPAN><a href="http://www.motel6.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image131','','orgball.gif',1)" target="_blank"><span class="small"><img name="Image131" border="0" src="orgball%20up.gif" width="12" height="11"> 
+  Motel 6<br>
+  </span></a> <span class="small"><a href="http://www.sleepin.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1313','','orgball.gif',1)" target="_blank"><img name="Image1313" border="0" src="orgball%20up.gif" width="12" height="11"> 
+  Sleep Inn<br>
+  </a> <a href="http://www.confortinn.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13131','','orgball.gif',1)" target="_blank"><img name="Image13131" border="0" src="orgball%20up.gif" width="12" height="11">Comfort 
+  Inn<br>
+  </a></span><span class="small"> <a href="http://www.clarioninn.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image133','','orgball.gif',1)" target="_blank"><img name="Image133" border="0" src="orgball%20up.gif" width="12" height="12">Quality 
+  Inn Clarion<br>
+  </a> <a href="http://www.mainstaysuites.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image134','','orgball.gif',1)" target="_blank"><img name="Image134" border="0" src="orgball%20up.gif" width="12" height="12">MainStay 
+  Suites </a><br>
+  <a href="http://www.daysinn.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13123','','orgball.gif',1)" target="_blank"><img name="Image13123" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Days Inn </a></span> 
+<p><SPAN CLASS="title">Friends</SPAN> <br>
+  <a href="http://www.route66.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image131231','','orgball.gif',1)"><span class="small"><img name="Image131231" border="0" src="orgball%20up.gif" width="12" height="12"></span></a> 
+  <span class="small"> <a href="http://members.aol.com/pehayes/mgctour.htm" target="_blank">Patric 
+  Hayes</a> <a href="http://members.tripod.it/pasper/" target="_blank"><br>
+  </A> <a href="http://members.tripod.it/pasper/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image131232','','orgball.gif',1)" target="_blank"><img name="Image131232" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Pas, compagno di restauro<br>
+  </A> <a href="http://www.egroups.com/group/Guzzisti" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image131233','','orgball.gif',1)" target="_blank"><img name="Image131233" border="0" src="orgball%20up.gif" width="12" height="12"> 
+  Moto Guzzi MailingList </A></span> </p>
+</BODY>
+</HTML>
+

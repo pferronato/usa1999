@@ -1,0 +1,210 @@
+Routing Directions,,,,,,
+"Start - New York, NY",August,,,,,
+SW,Wed - 04-Aug-99,0,00:00,Broadway,,
+NW,,0,00:00,Chambers St,,
+NE,,0,00:00,Church St,,
+N,,1,00:01,Avenue of the Americas (6th Ave),,
+NW,,1,00:02,Canal St,,
+N,,2,00:02,Hudson St,,
+NE,,2,00:02,Ramp,,
+E,,2,00:02,Broome St,,
+W,,2,00:02,Holland Tunl,,
+W,,4,00:04,SR 139,,
+W,,7,00:06,Pulaski Skwy (SR 139),,
+E,,13,00:10,US 1 TRK (US 9 TRK|Raymond Blvd),,
+SW,,13,00:10,I-95 (New Jersey Tpke),,NJTNPK Exit 15E Mile 107
+SW,,38,00:29,New Jersey Tpke,,
+NE,,186,02:08,I-295 (US 40),,I-295 Exit 1AB Mile 1 Northbound.
+W,,187,02:09,I-295 (US 40|Delaware Bridge),State Border,
+SW,,196,02:15,I-95 (US 202),,
+SW,,214,02:27,I-95,State Border,
+SW,,292,03:17,I-895,,61
+SW,,309,03:29,Baltimore Washington Pkwy (SR 295),,4
+S,,352,03:58,Gladys Noon Spellman Pkwy (SR 295|Kenilworth Ave),,
+S,,353,03:59,SR 295 (Kenilworth Ave),,
+SW,,354,03:59,Kenilworth Ave NE,State Border,
+SW,,357,04:02,Anacostia Fwy,,
+NW,,359,04:03,Pennsylvania Ave SE,,
+W,,360,04:04,I-395 (Southeast Fwy),,
+SW,,366,04:09,I-395 (US 1|Shirley Hwy),State Border,
+NW,Wed - 04-Aug-99,371,04:12,SR 120 (S Glebe Rd),,I-395 Exit 7AB Mile 7
+"Stop - Exit I-395 Exit 7AB Mile 7, VA",,,04:12,,,
+NE,Thu - 05-Aug-99,371,04:12,SR 120 (S Glebe Rd),,
+E,,371,04:12,I-395 (Shirley Hwy),,I-395 Exit 7AB Mile 7
+SE,,375,04:15,US 1 (Shirley Hwy),,
+NW,,375,04:16,George Washington Memorial Pkwy (SR 400|Scenic),,11
+NW,,376,04:16,George Washington Memorial Pkwy (Scenic),State Border,
+W,,378,04:18,George Washington Memorial Pkwy (Scenic),State Border,
+W,,381,04:19,Spout Run Pkwy (SR 124),,
+NE,,382,04:21,US 29 (Lee Hwy),,
+W,,382,04:21,I-66 (Custis Memorial Pkwy),,I-66 Exit 72 Mile 72 Difficult Reaccess.
+S,,488,05:32,US 340 (US 522|Winchester Rd),,I-66 Exit 6 Mile 6
+S,,496,05:41,Skyline Pl (Scenic),,
+SW,,512,05:58,Skyline Dr (Scenic),,
+SW,,521,06:08,Skyline Ln (Scenic),,
+SW,,524,06:10,Skyline Dr (Scenic),,
+W,,525,06:11,Skyline Ln (Scenic),,
+SW,,525,06:11,Skyline Dr (Scenic),,
+SW,,526,06:12,Skyline Ln (Scenic),,
+NW,,527,06:13,Skyline Dr (Scenic),,
+NW,,527,06:14,Skyline Ln (Scenic),,
+SW,,527,06:14,Skyline Dr (Scenic),,
+W,,545,06:33,US 211 (E Lee Hwy),,
+SW,,559,06:44,US 340 Bus (N Broad St),,
+E,,560,06:46,US 211 Bus (E Main St),,
+W,,562,06:50,US 211 (US 340),,
+SW,,583,07:06,I-81 (Scenic),,I-81 Exit 264 Mile 264
+W,,878,10:13,I-77 (I-81|US 11|Scenic),,I-77 Exit 32 Mile 32
+W,Fri - 06-Aug-99,890,10:21,US 11 (E Main St),,I-81 Exit 73 Mile 73
+"Stop - Wytheville, VA",,,06:09,,,
+W,Sat - 07-Aug-99,893,10:24,US 11 (US 21|W Main St),,
+W,,899,10:30,Connector,,
+SW,,900,10:30,I-81 (Scenic),,I-81 Exit 67 Mile 67
+SW,,1008,11:39,I-81,State Border,
+W,,1130,12:56,I-40,,I-40 Exit 421 Mile 421
+NW,Sat - 07-Aug-99,1459,16:30,SSR 255 (Donelson Pike),,I-40 Exit 216C Mile 216 Northbound.
+"Stop - Exit I-40 Exit 216C Mile 216 Northbound., TN",,,06:06,,,
+W,Sun - 08-Aug-99,1459,16:30,SSR 255 (Donelson Pike),,
+W,,1459,16:30,I-40,,I-40 Exit 216C Mile 216 Northbound.
+W,,1814,20:17,I-40,State Border,
+SW,,2016,22:23,I-440 (East Belt),,I-40 Exit 159 Mile 159
+SW,,2031,22:34,I-30,,138|1
+W,,2075,23:03,US 70 (Highway 70),,I-30 Exit 111 Mile 111
+N,Sun - 08-Aug-99,2115,23:36,SR 7 (Central Ave),,
+"Stop - Hot Springs, AR",,,07:06,,,
+N,Tue - 10-Aug-99,2117,23:40,SR 7 (Central Ave),,
+W,,2236,25:39:00,I-40 (Scenic),,I-40 Exit 81 Mile 81
+W,,2367,27:00:00,I-40,State Border,
+NW,Tue - 10-Aug-99,2634,29:47:00,I-240 (SR 3),,
+"Stop - Exit I-40 Exit 165 Mile 165 Westbound., OK",,,6:07:00,,,
+NW,Wed - 11-Aug-99,2634,29:47:00,I-240 (SR 3),,
+NW,,2634,29:47:00,I-40 (US 270),,I-40 Exit 165 Mile 165 Westbound.
+W,,2899,32:36:00,I-40 (Historic 66),State Border,
+N,,3071,34:24:00,US 60 (US 87|US 287),,I-27 Exit 124 Mile 124
+W,Wed - 11-Aug-99,3074,34:26:00,I-40D Bus (US 60|E Amarillo Blvd E),,
+"Stop - Amarillo, TX",,,4:39:00,,,
+E,Thu - 12-Aug-99,3074,34:27:00,I-40D Bus (E Amarillo Blvd E),,
+S,,3074,34:27:00,US 60 (US 87|N Pierce St),,
+W,,3078,34:29:00,I-40,,I-27 Exit 124 Mile 124
+W,,3191,35:41:00,I-40 (Historic 66),State Border,
+N,,3379,37:39:00,US 84,,I-40 Exit 256 Mile 256
+S,,3446,38:33:00,I-25 (US 84),,I-25 Exit 339 Mile 339
+N,,3536,39:30:00,SR 466,,I-25 Exit 284 Mile 284
+N,,3538,39:33:00,Old Pecos Trl,,
+N,,3541,39:38:00,Old Santa Fe Trl,,
+W,,3542,39:39:00,E Water St,,
+N,Thu - 12-Aug-99,3542,39:39:00,Bishops Lodge Rd,,
+"Stop - Santa Fe, NM",,,5:12:00,,,
+N,Fri - 13-Aug-99,3542,39:39:00,Bishops Lodge Rd,,
+W,,3542,39:39:00,E San Francisco St,,
+W,,3542,39:40:00,W San Francisco St,,
+S,,3542,39:40:00,Galisteo St,,
+W,,3542,39:41:00,Montezuma Ave,,
+SW,,3543,39:41:00,Cerrillos Rd,,
+S,,3544,39:43:00,US 84 (US 285|S St Francis Dr),,
+SW,,3549,39:50:00,I-25,,I-25 Exit 282 Mile 282 Eastbound-Limited Access Hwy
+SE,,3558,39:57:00,SR 599,,I-25 Exit 276AB Mile 276
+SW,,3558,39:57:00,SR 14,,
+NW,,3622,40:57:00,SR 536 (Sandia Crest Rd),,
+S,,3626,41:00:00,SR 14 (Scenic),,
+W,,3635,41:15:00,I-40,,I-40 Exit 175 Mile 175
+N,,3883,43:55:00,US 666,,I-40 Exit 20 Mile 20
+W,,3895,44:13:00,SR 264,,
+N,,3922,44:37:00,IR 12,,
+N,,3933,44:50:00,BIA 12,State Border,
+S,,3966,45:26:00,IR 12,State Border,
+N,,3967,45:26:00,BIA 12,State Border,
+NE,,3968,45:28:00,IR 12,State Border,
+N,,3970,45:30:00,BIA 12,State Border,
+NW,,3978,45:38:00,IR 12,State Border,
+N,,4040,46:44:00,US 191 (Scenic),,
+N,Fri - 13-Aug-99,4103,47:35:00,US 191,State Border,
+"Stop - Bluff, UT",,,7:56:00,,,
+W,Sat - 14-Aug-99,4144,48:08:00,US 191 (SR 163|S Highway 191),,
+SW,,4151,48:14:00,US 163 (Scenic),,
+NW,,4217,49:07:00,Monument Valley Rd,,
+NE,,4223,49:14:00,US 163 (Scenic),,
+N,Sat - 14-Aug-99,4289,50:08:00,US 191 (SR 163|S Highway 191),,
+"Stop - Monticello, UT",,,2:00:00,,,
+N,Sun - 15-Aug-99,4371,51:20:00,US 191 (SR 191|N Main St),,
+W,,4395,51:39:00,SR 211,,
+N,,4515,53:31:00,US 191 (SR 191),,
+N,,4587,54:33:00,Scenic,,
+NW,,4639,55:29:00,US 191 (SR 191),,
+W,,4682,56:03:00,I-70 (US 6|US 50|US 191),,I-70 Exit 180 Mile 180
+S,,4710,56:21:00,Connector,,I-70 Exit 162 Mile 162
+W,,4712,56:23:00,Local Road,,
+W,Sun - 15-Aug-99,4714,56:26:00,Main St,,
+"Stop - Green River, UT",,,5:06:00,,,
+W,Tue - 17-Aug-99,4714,56:26:00,Main St,,
+W,,4715,56:26:00,Local Road,,
+SW,,4717,56:29:00,I-70 (US 6|US 50|US 191|Scenic),,I-70 Exit 158 Mile 158
+SW,,4735,56:40:00,SR 24,,I-70 Exit 147 Mile 147
+S,Tue - 17-Aug-99,4883,58:51:00,SR 12 (Scenic),,
+"Stop - Tropic, UT",,,2:25:00,,,
+NW,Wed - 18-Aug-99,5048,61:17:00,SR 12 (Scenic),,
+S,,5060,61:28:00,SR 63 (Scenic),,
+S,,5062,61:30:00,SSR 63 (Scenic),,
+N,,5073,61:42:00,SR 63 (Scenic),,
+W,,5076,61:44:00,SR 12 (Scenic),,
+N,,5098,62:03:00,US 89 (W Highway 89|Scenic),,
+SW,,5109,62:20:00,SR 143 (S Main St|Scenic),,
+S,,5159,63:13:00,SR 148 (Scenic),,
+W,,5172,63:24:00,SR 14 (Scenic),,
+N,,5201,63:52:00,SR 130 (N Main St),,
+W,,5201,63:53:00,SR 56 (W 200 N),,
+W,,5300,65:22:00,SR 25 (SR 319),State Border,
+W,,5300,65:22:00,SR 319,,
+SW,Wed - 18-Aug-99,5334,65:52:00,US 93 (Scenic),,
+"Stop - Caliente, NV",,,4:35:00,,,
+W,Thu - 19-Aug-99,5356,66:16:00,US 93 (Front St|Scenic),,
+S,,5383,66:41:00,Local Road,,
+S,,5387,66:45:00,Power Line Maintenance Rd,,
+N,,5401,67:00:00,Local Road,,
+W,,5404,67:04:00,US 93 (Scenic),,
+W,,5446,67:37:00,SR 318,,
+NW,,5447,67:38:00,SR 375,,
+W,,5606,69:59:00,US 6,,
+W,,5816,73:00:00,SR 120,,
+N,Thu - 19-Aug-99,5889,74:04:00,US 395 (SR 120|Scenic),,
+"Stop - Lee Vining, CA",,,7:48:00,,,
+S,Fri - 20-Aug-99,5915,74:26:00,US 395 (Scenic),,
+W,,5933,74:41:00,SR 120 (Utility Rd|Scenic|Seasonal),,
+S,,6183,78:30:00,SR 99 (SR 120),,CA99 Exit 256 Mile 256
+W,,6184,78:30:00,SR 120,,CA99 Exit 255 Mile 255 Difficult Reaccess. Limited Access Hwy
+SW,,6195,78:39:00,I-5,,I-5 Exit 460 Mile 460
+W,,6198,78:41:00,I-205,,I-5 Exit 458 Mile 458 Southbound.
+W,,6219,78:55:00,I-580,,I-580 Exit 42 Mile 42
+SW,,6236,79:06:00,SR 84 (1st St),,I-580 Exit 34 Mile 34
+NE,Fri - 20-Aug-99,6240,79:12:00,1st St,,
+"Stop - Livermore, CA",,,4:46:00,,,
+SW,Sun - 22-Aug-99,6240,79:12:00,1st St,,
+W,,6240,79:12:00,SR 84 (1st St),,
+W,,6240,79:13:00,Martinez Trl,,
+W,,6240,79:13:00,SR 84 (1st St),,
+W,,6241,79:14:00,E Stanley Blvd,,
+W,,6245,79:18:00,Stanley Blvd,,
+S,,6249,79:26:00,Main St,,
+S,,6251,79:28:00,Sunol Blvd,,
+S,,6253,79:31:00,I-680,,I-680 Exit 28 Mile 28
+SW,,6273,79:44:00,SR 262 (Mission Blvd),,I-680 Exit 19 Mile 19
+S,,6275,79:47:00,I-880 (Nimitz Fwy|SR 17),,
+S,,6295,80:01:00,SR 17,,I-280 Exit 34 Mile 34
+S,,6338,80:44:00,SR 1 (Scenic),,
+SE,,6620,84:51:00,US 101 (SR 1|Scenic|El Camino Real),,
+SE,,6789,86:57:00,W Carrillo St,,
+NW,Sun - 22-Aug-99,6790,86:57:00,Chapala St,,
+"Stop - Santa Barbara, CA",,,7:45:00,,,
+NW,Mon - 23-Aug-99,6790,86:58:00,Chapala St,,
+SW,,6790,86:58:00,W Mission St,,
+E,,6791,86:59:00,US 101 (SR 1|Scenic),,
+E,,6822,87:21:00,Ventura Fwy (US 101|SR 1|Scenic),,
+SE,,6928,88:38:00,Hollywood Fwy (US 101|SR 170),,
+SW,,6945,88:50:00,Pasadena Fwy (SR 110),,
+SE,Mon - 23-Aug-99,6946,88:51:00,W 4th St,,
+"Finish - Los Angeles, CA",,,1:53:00,,,
+,,,,,,
+GRUPPO arriva il 23 a LA,,,,,,
+Abbiamo un margine di 2 giorni,,,,,,
+,,,,,,
+Aereo decolla il 25,,,,,,

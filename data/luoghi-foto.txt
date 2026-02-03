@@ -1,0 +1,18 @@
+# Associazioni luoghi → foto
+
+Inserisci il nome del file immagine (in assets/images) per ogni luogo.
+Esempio: 01_03.jpg
+
+New York = DA 01_03 A 01_07
+Appalachian trail  = 02_04 02_06
+Route 66  = 03_10 03_11 03_14 03_21 04_14 04_15 04_20 04_21
+Cadillac Ranch = 04_06 04_07 04_08
+Painted desert = 05_15 05_16
+Mexican Hat =  07_05 07_09
+Muley Point = 07_20 07_22 07_23 07_25 
+Capitol Reef National Park = 09_02 09_03 09_06 09_07 09_14 09_15 09_18 09_25 09_26 09_27
+Zion = 11_02 11_04
+Bryce Canyon = 10_14 12_32f18a 10_32f21a 10_32f22a 10_32f24a
+Monument Valley = 06_16 06_17 16_18 06_19
+Death Valley = 12_12 12_13 12_15 12_18 12_19
+US 1 (California Coast) = 12_34 12_36

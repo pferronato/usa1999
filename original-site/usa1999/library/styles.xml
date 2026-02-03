@@ -1,0 +1,9 @@
+<mm:style name="Counter" apply="replace" size="-1" color="#FFFFFF" bold />
+<mm:style name="Grassetto" type="char" apply="add" bold />
+<mm:style name="Didascalia" format="p" align="center" apply="replace" font="Arial, Helvetica, sans-serif" size="2" color="#808080" bold italic />
+<mm:style name="Copyright" format="p" align="center" apply="replace" font="Georgia, Times New Roman, Times, serif" size="1" italic />
+<mm:style name="Enfasi, sans-serif" type="char" apply="replace" font="Verdana, Arial, Helvetica, sans-serif" bold />
+<mm:style name="Larghezza fissa" type="char" apply="replace" font="Courier New, Courier, mono" />
+<mm:style name="Titolo" align="left" apply="replace" font="Verdana, Arial, Helvetica, sans-serif" size="+5" bold />
+<mm:style name="Normale" apply="replace" font="Georgia, Times New Roman, Times, serif" size="+1" />
+<mm:style name="Rosso" type="char" apply="add" color="#FF0000" />
