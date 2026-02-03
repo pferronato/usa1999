@@ -33,6 +33,8 @@ const renderGallery = (items) => {
     const img = document.createElement("img");
     img.src = item.full;
     img.alt = item.alt || "Immagine gallery";
+    img.loading = "lazy";
+    img.addEventListener("click", () => openLightbox(item));
 
     const caption = document.createElement("figcaption");
     caption.className = "gallery-caption";
@@ -41,6 +43,65 @@ const renderGallery = (items) => {
     card.appendChild(img);
     card.appendChild(caption);
     galleryList.appendChild(card);
+  });
+};
+
+let lightboxEl = null;
+let lightboxImg = null;
+let lightboxCaption = null;
+
+const ensureLightbox = () => {
+  if (lightboxEl) return;
+  lightboxEl = document.createElement("div");
+  lightboxEl.className = "lightbox";
+  lightboxEl.setAttribute("role", "dialog");
+  lightboxEl.setAttribute("aria-modal", "true");
+
+  lightboxEl.innerHTML = `
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" type="button" aria-label="Close">×</button>
+      <img class="lightbox-image" alt="" />
+      <p class="lightbox-caption"></p>
+    </div>
+  `;
+
+  document.body.appendChild(lightboxEl);
+  lightboxImg = lightboxEl.querySelector(".lightbox-image");
+  lightboxCaption = lightboxEl.querySelector(".lightbox-caption");
+
+  const closeBtn = lightboxEl.querySelector(".lightbox-close");
+  const backdrop = lightboxEl.querySelector(".lightbox-backdrop");
+  const close = () => lightboxEl.classList.remove("is-open");
+
+  closeBtn.addEventListener("click", close);
+  backdrop.addEventListener("click", close);
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") close();
+  });
+};
+
+const openLightbox = (item) => {
+  ensureLightbox();
+  lightboxImg.src = item.full;
+  lightboxImg.alt = item.alt || "";
+  lightboxCaption.textContent = item.alt || "";
+  lightboxEl.classList.add("is-open");
+};
+
+const bindStoryLightbox = () => {
+  const thumbs = document.querySelectorAll(".place-thumb");
+  if (!thumbs.length) return;
+  ensureLightbox();
+  thumbs.forEach((link) => {
+    const href = link.getAttribute("href");
+    if (!href) return;
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const img = link.querySelector("img");
+      const alt = img ? img.getAttribute("alt") : "";
+      openLightbox({ full: href, alt: alt || "" });
+    });
   });
 };
 
@@ -70,6 +131,7 @@ const loadGallery = async () => {
 };
 
 loadGallery();
+bindStoryLightbox();
 
 const yearsSpan = document.querySelector("#years-since");
 if (yearsSpan) {
