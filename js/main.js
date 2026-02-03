@@ -47,10 +47,20 @@ const renderGallery = (items) => {
 const loadGallery = async () => {
   if (!galleryList) return;
   try {
-    const res = await fetch("data/gallery.json");
+    const isEnglish = window.location.pathname.includes("/en/");
+    const dataPath = isEnglish ? "../data/gallery.json" : "data/gallery.json";
+    const res = await fetch(dataPath);
     if (!res.ok) throw new Error("Gallery JSON not found");
     const data = await res.json();
-    renderGallery(Array.isArray(data) ? data : []);
+    const items = Array.isArray(data) ? data : [];
+    const normalized = isEnglish
+      ? items.map((item) => ({
+          ...item,
+          full: item.full.startsWith("assets/") ? `../${item.full}` : item.full,
+          thumb: item.thumb.startsWith("assets/") ? `../${item.thumb}` : item.thumb
+        }))
+      : items;
+    renderGallery(normalized);
   } catch (err) {
     if (galleryList) {
       galleryList.innerHTML =
