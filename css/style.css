@@ -77,6 +77,23 @@ a {
   font-weight: 600;
 }
 
+.story-text a.photo-link {
+  color: var(--blue-600);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: 700;
+  position: relative;
+  padding-right: 18px;
+}
+
+.story-text a.photo-link::after {
+  content: "📷";
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.95em;
+}
+
 .tips-item a:hover,
 .refs-item a:hover,
 .story-text a:hover {
@@ -115,6 +132,42 @@ a {
 
 .home .hero + .section {
   padding-top: 20px;
+}
+
+.story-page .section {
+  padding: 64px 0;
+}
+
+.story-page .section-header {
+  margin-bottom: 20px;
+}
+
+.story-page .story-text p {
+  margin-bottom: 1rem;
+}
+
+.story-page .story-text {
+  padding-top: 8px;
+}
+
+.story-page .story-chapter:first-of-type {
+  margin-top: 1.4rem;
+}
+
+.home .hero-copy h1 {
+  font-size: clamp(1.9rem, 2.6vw, 2.6rem);
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.home .lead {
+  font-size: 1rem;
+  color: var(--blue-800);
+}
+
+.home .hero-card {
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(11, 27, 42, 0.08);
 }
 
 .section.alt {
@@ -733,7 +786,7 @@ a {
 }
 
 .story-places {
-  margin-top: 36px;
+  margin-top: 24px;
 }
 
 .place-block {
@@ -900,6 +953,7 @@ a {
   padding-right: 8px;
   font-weight: 700;
   color: var(--blue-600);
+  text-transform: uppercase;
 }
 
 .grid {

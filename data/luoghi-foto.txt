@@ -1,18 +1,19 @@
 # Associazioni luoghi → foto
 
-Inserisci il nome del file immagine (in assets/images) per ogni luogo.
-Esempio: 01_03.jpg
 
-New York = DA 01_03 A 01_07
-Appalachian trail  = 02_04 02_06
-Route 66  = 03_10 03_11 03_14 03_21 04_14 04_15 04_20 04_21
-Cadillac Ranch = 04_06 04_07 04_08
-Painted desert = 05_15 05_16
-Mexican Hat =  07_05 07_09
-Muley Point = 07_20 07_22 07_23 07_25 
-Capitol Reef National Park = 09_02 09_03 09_06 09_07 09_14 09_15 09_18 09_25 09_26 09_27
-Zion = 11_02 11_04
-Bryce Canyon = 10_14 12_32f18a 10_32f21a 10_32f22a 10_32f24a
-Monument Valley = 06_16 06_17 16_18 06_19
-Death Valley = 12_12 12_13 12_15 12_18 12_19
-US 1 (California Coast) = 12_34 12_36
+New York = 01_03.jpg 01_11.jpg 01_15.jpg 01_17.jpg 01_22.jpg "Senza titolo01-1.jpg" "Senza Titolo01.jpg" "Senza Titolo01_1.jpg" "Senza Titolo801.jpg" "Senza Titolo803.jpg" "Senza Titolo804.jpg"
+Appalachian trail = 02_04.jpg 02_06.jpg
+Route 66 = 03_10.jpg 03_11.jpg 03_14.jpg 03_21.jpg 04_14.jpg 04_15.jpg 04_20.jpg 04_21.jpg
+Shamrock, Texas = "Senza titolo C12.tif.jpg" "Senza Titolo.jpg" "Senza titolo C.jpg" "Senza titolo C11.tif.jpg" "Senza titolo C13.tif.jpg"
+Cadillac Ranch = 04_06.jpg 04_07.jpg 04_08.jpg
+Painted desert = 05_16.jpg "Senza titolo F03.jpg" "Senza titolo F.jpg" "Senza Titolo.jpg" "Senza titolo F04.tif.jpg" "Senza titolo F05.jpg" "Senza titolo F02.tif.jpg"
+Mexican Hat = 07_05.jpg 07_09.jpg
+Muley Point = 07_20.jpg 07_22.jpg 07_23.jpg 07_25.jpg
+Zion = 11_02.jpg 11_04.jpg
+Capitol Reef National Park = 09_02.jpg 09_03.jpg 09_06.jpg 09_07.jpg 09_14.jpg 09_15.jpg 09_18.jpg 09_25.jpg 09_26.jpg 09_27.jpg
+Highway 12 Utah = 10_10.jpg 10_13.jpg
+General Store Phillip 66, Utah = 10_11.jpg 10_13.jpg
+Bryce Canyon = 10_14.jpg 10_32f21a.jpg 10_32f22a.jpg 10_32f24a.jpg
+Monument Valley = 06_16.jpg 06_17.jpg
+Death Valley = 12_12.jpg 12_13.jpg 12_15.jpg 12_18.jpg 12_19.jpg
+US 1 (California Coast) = 12_34.jpg 12_36.jpg

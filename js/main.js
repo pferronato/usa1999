@@ -91,7 +91,8 @@ const openLightbox = (item) => {
 
 const bindStoryLightbox = () => {
   const thumbs = document.querySelectorAll(".place-thumb");
-  if (!thumbs.length) return;
+  const inlineLinks = document.querySelectorAll(".photo-link");
+  if (!thumbs.length && !inlineLinks.length) return;
   ensureLightbox();
   thumbs.forEach((link) => {
     const href = link.getAttribute("href");
@@ -101,6 +102,16 @@ const bindStoryLightbox = () => {
       const img = link.querySelector("img");
       const alt = img ? img.getAttribute("alt") : "";
       openLightbox({ full: href, alt: alt || "" });
+    });
+  });
+
+  inlineLinks.forEach((link) => {
+    const href = link.getAttribute("href");
+    if (!href) return;
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const alt = link.textContent || link.getAttribute("aria-label") || "";
+      openLightbox({ full: href, alt });
     });
   });
 };
