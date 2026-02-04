@@ -149,3 +149,16 @@ if (yearsSpan) {
   const years = new Date().getFullYear() - 1999;
   yearsSpan.textContent = String(years);
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  document.querySelectorAll('.photo-link').forEach((link) => {
+    if (link.children.length === 0) {
+      const icon = document.createElement('span');
+      icon.className = 'photo-icon';
+      icon.setAttribute('aria-hidden', 'true');
+      icon.textContent = '📷';
+      link.appendChild(icon);
+    }
+  });
+});
