@@ -83,15 +83,6 @@ a {
   text-underline-offset: 4px;
   font-weight: 700;
   position: relative;
-  padding-right: 18px;
-}
-
-.story-text a.photo-link::after {
-  content: "📷";
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 0.95em;
 }
 
 .tips-item a:hover,
