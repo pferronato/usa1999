@@ -1,16 +1,7 @@
-const nav = document.querySelector(".nav");
-const toggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelectorAll(".nav a");
+const navLinks = document.querySelectorAll(".site-nav a");
 const galleryList = document.querySelector("#gallery-list");
 
 const renderRouteMap = () => {};
-
-if (toggle && nav) {
-  toggle.addEventListener("click", () => {
-    const isOpen = nav.classList.toggle("is-open");
-    toggle.setAttribute("aria-expanded", String(isOpen));
-  });
-}
 
 const setActiveLinkByPath = () => {
   const current = window.location.pathname.split("/").pop() || "index.html";
@@ -22,6 +13,68 @@ const setActiveLinkByPath = () => {
 };
 
 setActiveLinkByPath();
+
+const normalizeRouteName = (value) => {
+  return (value || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+};
+
+const syncRouteTimelineFromTable = () => {
+  const table = document.querySelector(".route-table tbody");
+  const timelineItems = document.querySelectorAll(".story-timeline-item");
+  if (!table || !timelineItems.length) return;
+
+  const rows = Array.from(table.querySelectorAll("tr"))
+    .map((row) => {
+      const cells = row.querySelectorAll("td");
+      if (cells.length < 5) return null;
+      return {
+        start: cells[0].textContent.trim(),
+        destination: cells[1].textContent.trim(),
+        day: cells[2].textContent.trim(),
+        km: cells[3].textContent.trim()
+      };
+    })
+    .filter(Boolean);
+
+  if (!rows.length) return;
+
+  const first = rows[0];
+
+  timelineItems.forEach((item, index) => {
+    const labelEl = item.querySelector("span");
+    const infoEl = item.querySelector("small");
+    if (!labelEl || !infoEl) return;
+
+    const timelineName = normalizeRouteName(labelEl.textContent);
+    let matched = null;
+
+    for (const row of rows) {
+      const destination = normalizeRouteName(row.destination);
+      if (
+        destination === timelineName ||
+        destination.includes(timelineName) ||
+        timelineName.includes(destination)
+      ) {
+        matched = row;
+        break;
+      }
+    }
+
+    if (index === 0 && normalizeRouteName(first.start) === timelineName) {
+      infoEl.textContent = `${first.day} Aug \u2022 0 km`;
+      return;
+    }
+
+    if (matched) {
+      infoEl.textContent = `${matched.day} Aug \u2022 ${matched.km} km`;
+    }
+  });
+};
 
 const renderGallery = (items) => {
   if (!galleryList || !items.length) return;
@@ -143,6 +196,7 @@ const loadGallery = async () => {
 
 loadGallery();
 bindStoryLightbox();
+syncRouteTimelineFromTable();
 
 const yearsSpan = document.querySelector("#years-since");
 if (yearsSpan) {

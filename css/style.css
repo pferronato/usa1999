@@ -195,7 +195,7 @@ a {
   margin-left: auto;
 }
 
-.nav {
+.site-nav {
   order: 3;
   margin-left: 24px;
 }
@@ -310,7 +310,6 @@ a {
 }
 
 .menu-toggle {
-  display: none;
   border: 1px solid rgba(11, 27, 42, 0.2);
   background: var(--white);
   padding: 8px 14px;
@@ -319,7 +318,7 @@ a {
   cursor: pointer;
 }
 
-.nav {
+.site-nav {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -327,13 +326,13 @@ a {
   flex-wrap: nowrap;
 }
 
-.nav a {
+.site-nav a {
   position: relative;
   padding-bottom: 4px;
   white-space: nowrap;
 }
 
-.nav a::after {
+.site-nav a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -344,8 +343,8 @@ a {
   transition: width 0.2s ease;
 }
 
-.nav a:hover::after,
-.nav a.active::after {
+.site-nav a:hover::after,
+.site-nav a.active::after {
   width: 100%;
 }
 
@@ -678,13 +677,11 @@ a {
 .tips-item h3,
 .refs-item h3 {
   margin: 0 0 8px;
-  color: #0b1b2a;
 }
 
 .tips-item p,
 .refs-item p {
   margin: 0;
-  color: var(--blue-800);
 }
 
 .story-note {
@@ -731,13 +728,36 @@ a {
 }
 
 .thanks-item h3 {
-  margin: 0 0 6px;
-  color: #0b1b2a;
+  margin: 0 0 8px;
 }
 
 .thanks-item p {
   margin: 0;
+}
+
+.tips-item,
+.refs-item,
+.stats-item,
+.thanks-item {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.tips-item h3,
+.refs-item h3,
+.thanks-item h3 {
+  color: #0b1b2a;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.tips-item p,
+.refs-item p,
+.thanks-item p {
   color: var(--blue-800);
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .place-link {
@@ -1117,29 +1137,6 @@ a {
   font-size: 0.9rem;
 }
 
-@media (max-width: 860px) {
-  .nav {
-    position: absolute;
-    top: 72px;
-    right: 24px;
-    flex-direction: column;
-    align-items: flex-start;
-    background: var(--white);
-    border-radius: 14px;
-    padding: 16px;
-    box-shadow: var(--shadow);
-    display: none;
-  }
-
-  .nav.is-open {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: inline-flex;
-  }
-}
-
 @media (max-width: 600px) {
   .hero {
     padding-top: 90px;
@@ -1178,7 +1175,7 @@ body {
   text-transform: uppercase;
 }
 
-.nav a::after {
+.site-nav a::after {
   background: var(--proposal-accent);
 }
 
